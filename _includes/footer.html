@@ -1,0 +1,31 @@
+  <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                    <div>
+                        {{ site.address.title }}<br/>
+                        {{ site.address.street }}<br/>
+                        {{ site.address.city }}<br/><br/>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="service-heading">Obratovalni čas <a target="_blank" href="{{ site.googleMaps }}">strelišča</a></h5>
+                    <ul class="quicklinks">
+                        {% for day in site.workinghours %}
+                            <li class="">{{ day.title }} {{ day.hours }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
