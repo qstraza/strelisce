@@ -1,0 +1,40 @@
+<!-- Services Section -->
+    <section id="strelisce" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Strelišče</h2>
+                    <h3 class="section-subheading text-muted">Notranje strelišče do 25m.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="/img/strelisce-slika.jpg">
+                </div>
+                <div class="col-md-4">
+                    <h4 class="service-heading">Lokacija</h4>
+                    <p class="text-muted">Strelišče se nahaja v Drgančevju v Novem mestu. <a href="{{ site.googleMaps }}">Klikni za zemljevid</a>.</p>
+                </div>
+                <div class="col-md-4"><!--
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span> -->
+                    <h4 class="service-heading">12 strelskih mest</h4>
+                    <p class="text-muted">Strelišče ponuja 12 strelskih mest.</p>
+                </div>
+                <div class="col-md-4"><!--
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                    </span> -->
+                    <h4 class="service-heading">Obratovalni čas</h4>
+                    <p class="text-muted">
+                        {% for day in site.workinghours %}
+                            {{ day.title }} {{ day.hours }}</br>
+                        {% endfor %}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
