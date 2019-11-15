@@ -38,16 +38,14 @@ pricelistfootnote:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  # - title: twitter
-  #   url: http://twitter.com/jekyllrb
   - title: facebook
     url: https://facebook.com/sdrojal
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket
-  #   url: http://bitbucket.org/jekyll
+
   - title: envelope
     url: mailto:sd@rojal.si
+
+  - title: map-marker
+    url: https://g.page/sdrojal?share
 
 # Build settings
 markdown: kramdown
