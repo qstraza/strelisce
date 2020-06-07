@@ -10,8 +10,8 @@ workinghours:
   - title: "Sreda"
     hours: "18:00 - 20:00"
 
-  - title: "Nedelja"
-    hours: "9:00 - 12:00"
+#  - title: "Nedelja"
+#    hours: "9:00 - 12:00"
 
 address:
   title: SD Rojal
