@@ -20,14 +20,25 @@ address:
 
 googleMaps: https://g.page/sdrojal?share
 
+files:
+  statut: https://docs.google.com/document/d/1FbaxWk6PN-HT9nPf7dMqIgNQxfZNABIWhcQfve2mKfE/edit?usp=sharing
+  pravilnikClanstvu: https://docs.google.com/document/d/1-0chkKzRm4ljUquVjfW9smeIA7SL3FysxzL_53PNudg/edit?usp=sharing
+
 pricelist:
   - title: "Enodnevno članstvo v SD Rojal *"
     subtitle: "Omejena uporaba strelišča 1 ura na dan"
     price: "10 EUR"
 
-  - title: "Letno članstvo v SD Rojal *"
-    subtitle: "(Neomejena uporaba strelišča)"
+  - title: "Letno redno članstvo v SD Rojal"
+    subtitle: "Neomejena uporaba klubskega strelišča"
     price: "100 EUR"
+
+  - title: "Letno članstvo v SD Rojal za neaktivne člane"
+    subtitle: "Uporaba klubskega strelišča ni dovoljena"
+    price: "40 EUR"
+
+  - title: "Pristopnina za nove letne člane"
+    price: "20 EUR"
 
   - title: "Standard pištolska tarča 50x50"
     price: "0,60 EUR / kom"
