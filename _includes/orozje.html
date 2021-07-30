@@ -1,0 +1,25 @@
+<section id="orozje" class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Orožje</h2>
+        <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+      </div>
+    </div>
+    <div class="row container">
+      <div class="card-deck">
+        {% for orozje in site.orozje %}
+          <div class="card col-md-4">
+            <img class="card-img-top" src="{{ orozje.img }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{ orozje.title }}</h5>
+              <p class="card-text">Vrsta: {{ orozje.tip }}</p>
+              <p class="card-text">Kaliber: {{ orozje.cal }}</p>
+              <p class="card-text">{{ orozje.desc }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

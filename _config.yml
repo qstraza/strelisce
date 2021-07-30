@@ -25,16 +25,12 @@ files:
   pravilnikClanstvu: https://docs.google.com/document/d/1-0chkKzRm4ljUquVjfW9smeIA7SL3FysxzL_53PNudg/edit?usp=sharing
 
 pricelist:
-  - title: "Enodnevno članstvo v SD Rojal *"
-    subtitle: "Omejena uporaba strelišča 1 ura na dan"
-    price: "10 EUR"
-
   - title: "Letno redno članstvo v SD Rojal"
-    subtitle: "Neomejena uporaba klubskega strelišča"
+    subtitle: "Neomejena uporaba strelišča"
     price: "100 EUR"
 
   - title: "Letno članstvo v SD Rojal za neaktivne člane"
-    subtitle: "Uporaba klubskega strelišča ni dovoljena"
+    subtitle: "Uporaba klubskega strelišča ni všteta"
     price: "40 EUR"
 
   - title: "Pristopnina za nove letne člane"
@@ -43,9 +39,46 @@ pricelist:
   - title: "Standard pištolska tarča 50x50"
     price: "0,60 EUR / kom"
 
-pricelistfootnote:
-  - "* Zaposlenim na MNZ, Mors ter Pravosodju, se prizna popust na enodnevno članstvo v višini 2 eur."
-  - "Pogoj za uporabo strelišča je veljavna orožna listina ter posest lastnega orožja."
+  - title: "Uporaba strelišča za nečlane"
+    price: "10 EUR / h"
+
+  - title: "Prisotnost inštruktorja oz. odgovorne osebe (do 4 osebe)"
+    subtitle: "Potrebno samo v primeru, če strelec nima orožne listine"
+    price: "15 EUR"
+
+  - title: "Prisotnost inštruktorja oz. odgovorne osebe (5 oseb ali več)"
+    subtitle: "Potrebno samo v primeru, če strelec nima orožne listine"
+    price: "35 EUR"
+
+  - title: "Izposoja orožja"
+    price: "6 EUR"
+
+pricelistammo:
+  - title: ".22 L.R."
+    price: "0,14 EUR"
+
+  - title: "9x19"
+    price: "0,35 EUR"
+
+  - title: ".38 Special"
+    price: "0,45 EUR"
+
+  - title: ".357 Magnum"
+    price: "0,60 EUR"
+
+  - title: "Šibreno strelivo"
+    price: "1,00 EUR"
+
+# orozje:
+#   - title: "Norinco NP26"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: "opis... alalala"
+#     img: "http://www.firearmstraining.ca/images/np28leftsmall.jpg"
+
+# pricelistfootnote:
+#   - "* Zaposlenim na MNZ, Mors ter Pravosodju, se prizna popust na enodnevno članstvo v višini 2 eur."
+#   - "Pogoj za uporabo strelišča je veljavna orožna listina ter posest lastnega orožja."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

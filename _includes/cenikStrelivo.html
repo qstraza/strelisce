@@ -1,14 +1,14 @@
 <!-- About Section -->
-    <section id="cenik" class="cenik bg-light-gray">
+    <section id="cenikStrelivo" class="cenik bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Cenik</h2>
+                    <h2 class="section-heading">Cenik Streliva</h2>
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
                 </div>
             </div>
             <div class="row container text-muted">
-                {% for line in site.pricelist %}
+                {% for line in site.pricelistammo %}
                     <div class="row pline">
                         <div class="col-xs-10 col-sm-10">
                             <p>{{ line.title }}</br>
@@ -20,11 +20,6 @@
                             {{ line.price }}
                         </div>
                     </div>
-                {% endfor %}
-            </div>
-            <div class="container text-muted">
-                {% for pfootnote in site.pricelistfootnote %}
-                    <p>{{ pfootnote }}</p>
                 {% endfor %}
             </div>
         </div>
