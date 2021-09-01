@@ -1,0 +1,178 @@
+---
+layout: page
+title:  "Usposabljanje o varnem ravnanju z orožjem"
+permalink: /usposabljanje
+
+---
+
+
+<!-- Services Section -->
+<section class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{title}}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <h4 class="service-heading">O usposabljanju</h4>
+                <p class="text-muted">
+                  Pridobivanje znanja o pravilnem ravnanju z orožjem v okviru programa za pridobitev orožne listine poteka v teoretičnem in praktičnem delu usposabljanja. Usposabljanje je namenjeno varnemu ravnanju z orožjem in uveljavlja določene standarde za vse lastnike orožja.
+                </p>
+                <p class="text-muted">
+                  Glede ravnanja z orožjem je v veljavi splošno pravilo, da mora vsakdo z orožjem in strelivom ravnati s posebno skrbnostjo. Posebna skrbnost pri ravnanju z orožjem se kaže v njegovi pravilni in strokovni uporabi, nošenju, prenašanju in hrambi ter prizadevanju, da je orožje v brezhibnem stanju. Orožje je lahko nevarno, zato je neizogibno potrebna ustrezna pravna ureditev, povezana z orožjem. Le podrobna pravna ureditev zagotavlja tudi ustrezno pravilno ravnanje. Predpisi zagotavljajo izvrševanje javnega interesa, da je zagotovljeno varno ravnanje z orožjem.
+                </p>
+                <p class="text-muted">
+                  V delu teoretičnega usposabljanja se tečajniki seznanijo s predpisi pozitivne zakonodaje, osnovami nudenja prve pomoči pri ranah s strelnim orožjem in poznavanjem orožja in varnega ravnanja z orožjem.
+                </p>
+                <p class="text-muted">
+                  V delu praktičnega usposabljanja se tečajniki seznanijo z obnašanjem na strelišču, streliškim redom, uporabo zaščitnih sredstev, odpravljanjem zastojev med streljanjem, izvajanjem streljanja z upoštevanjem tehnik merjenja, dihanja in proženja, čiščenjem in vzdrževanjem orožja, nošenjem in prenašanjem orožja ter hrambo orožja.
+                </p>
+                <p class="text-muted">
+                  V času rokovanja z orožjem lahko pride do najrazličnejših stanj, ki ogrožajo življenje. Pri usposabljanju bodo obravnavane le strelne poškodbe. Praktično vsi ukrepi, ki bodo obravnavani pa se lahko uporabljajo tudi v drugih situacijah. Še vedno je na prvem mestu preventiva s pravilno uporabo strelnega orožja. Tečajniku želimo, da bi celo življenje pomnil veščine prve pomoči, a jih v praksi ne bi nikoli potreboval.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h4 class="service-heading">Prijave na usposabljanje</h4>
+                <p class="text-muted"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+<a href="mailto:{{site.email}}" target="_blank">{{site.email}}</a></p>
+                <p class="text-muted"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+<a href="{{site.files.prijavnicatecaj}}" target="_blank">Prijavnica na tečaj</a></p>
+                <p class="text-muted"><i class="fa fa-address-card-o" aria-hidden="true"></i>
+</i><a href="{{site.files.elprijavnicatecaj}}" target="_blank">Elektronska prijavnica na tečaj</a></p>
+                <p class="text-muted"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+<a href="{{site.files.prijavnicaizpit}}" target="_blank">Prijavnica na izpit</a></p>
+                <h4 class="service-heading">Aktualna usposabljanja</h4>
+                <ul>
+                {% for post in site.posts %}
+                  {% if site.time < post.datum %}
+                    <li>
+                      {{ post.title }} <br/>
+                      {{ post.datum | date_to_string }} <br/>
+                      <small><a href="{{post.url}}">Več...</a></small>
+                    </li>
+                  {% endif %}
+                {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="service-heading">Teoretični del usposabljanja</h4>
+                <p class="text-muted">
+                  Teoretični del usposabljanja obsega naslednje sklope:
+                  <p>
+                  a) poznavanje predpisov (5 pedagoških ur)
+                  <ul>
+                    <li>Ustava Republike Slovenije</li>
+
+                    <li>Zakon o orožju in podzakonski predpisi</li>
+                  </ul>
+                  </p>
+                </p>
+                <p class="text-muted">
+                  Kazenski zakonik in sicer poglavja:
+                  <ul>
+                    <li>splošne določbe o kaznivem dejanju,</li>
+                    <li>varnostni ukrepi,</li>
+                    <li>kazniva dejanja zoper življenje in telo,</li>
+                    <li>kazniva dejanja zoper človekove pravice in svoboščine,</li>
+                    <li>kazniva dejanja zoper premoženje,</li>
+                    <li>kazniva dejanja zoper javni red in mir.</li>
+                    <li>Zakon o varstvu javnega reda in miru</li>
+                    <li>Zakon o javnih zbiranjih</li>
+                  </ul>
+                </p>
+                <p class="text-muted">
+                  b) poznavanje osnov nudenja prve pomoči pri ranah s strelnim orožjem (3 pedagoške ure)
+                  <ul>
+                    <li>vrste strelnih ran,</li>
+                    <li>ugotovljanje osnovnih življenjskih funkcij,</li>
+                    <li>poznavanje položajev in prenos poškodovanca,</li>
+                  </ul>
+                </p>
+                <p class="text-muted">
+                  Poznavanje ukrepov prve pomoči v primerih strelnih ran:
+                  <ul>
+                    <li>kadar je oseba pri zavesti,</li>
+                    <li>kadar je oseba nezavestna,</li>
+                    <li>kadar jo je treba oživljati,</li>
+                    <li>kadar krvavi,</li>
+                    <li>kadar je v šoku…</li>
+                  </ul>
+                </p>
+                <p class="text-muted">
+                  c) poznavanje orožja in varno ravnanje z orožjem (2 pedagoški uri):
+                  <ul>
+                    <li>tehnične lastnosti posameznih vrst/tipov kratkocevnega in dolgocevnega orožja,</li>
+                    <li>razstavljanje in sestavljanje orožja ter vzdrževanje orožja,</li>
+                    <li>poznavanje pravil varnega ravnanja z orožjem,</li>
+                    <li>uporaba zaščitnih sredstev pri streljanju.</li>
+                  </ul>
+                </p>
+
+            </div>
+            <div class="col-md-6">
+                <h4 class="service-heading">Praktični del usposabljanja</h4>
+                <p class="text-muted">
+                  Praktični del usposabljanja obsega (5 pedagoških ur)
+                  <ul>
+                    <li>sestavo orožja in varno ravnanje z orožjem,</li>
+                    <li>razstavljanje in sestavljanje orožja,</li>
+                    <li>pravilno ravnanje pri uporabi orožja (streljanje in odpravljanje zastojev),</li>
+                    <li>uporabo zaščitnih sredstev.</li>
+                  </ul>
+                </p>
+                <p class="text-muted">
+                  Prikaz varnega rokovanja s praznim orožjem zajema:
+                  <ul>
+                    <li>varno jemanje iz embalaže,</li>
+                    <li>kontrola orožja (napolnjeno, prazno),</li>
+                    <li>drža orožja (orožje obrnjeno v varno smer, prst izven branika orožja…),</li>
+                    <li>prikaz delovanja vseh zunanjih krmilnih vzvodov na orožju,</li>
+                    <li>postopek polnjenja in praznjenja ter menjave nabojnikov,</li>
+                    <li>postopek za čiščenje in vzdrževanje.</li>
+                  </ul>
+                </p>
+                <p class="text-muted">
+                  Prikaz varnega rokovanja in streljanja z orožjem zajema:
+                  <ul>
+                    <li>izbira pravega streliva, med različnim strelivom,</li>
+                    <li>priprava orožja in pravilna drža orožja,</li>
+                    <li>praktični prikaz odpravljanja zastojev,</li>
+                    <li>uporaba zaščitnih sredstev,</li>
+                    <li>izvajanje streljanja.</li>
+                  </ul>
+                </p>
+                <p class="text-muted">
+                  Usposabljanje v streljanju se izvaja s kratkocevnim orožjem na civilnem strelišču SK Rojal. Uporablja se orožje izvajalca in krožna tarča velikosti 50×50 cm, na razdalji 15 m. Kandidat se usposablja, da izstreli tri strele za preizkus in deset strelov za oceno.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Cenik</h2>
+            </div>
+            </div>
+            <div class="row container">
+                {% for line in site.pricelisttecaj %}
+                    <div class="row pline">
+                        <div class="col-xs-8 col-sm-8">
+                          <p>
+                            {{ line.title }}</br>
+                                {% if line.subtitle %}
+                                    <small><i>({{ line.subtitle }})</i></small>
+                                {% endif %}
+                          </p>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            {{ line.price }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+

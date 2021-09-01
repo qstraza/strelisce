@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index postLayout">
+      {% include header.html %}
+
+      <!-- About Section -->
+      <section class="bg-light-gray">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                      <h2 class="section-heading">{{ page.title }}</h2>
+                  </div>
+              </div>
+              <div class="row">
+                <small>
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                  Datum objave: {{page.date | date_to_string}}
+                </small>
+              </div>
+              <div class="row container main">
+                <div class="col-md-7">
+                  {{ content }}
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4">
+                  <h4 class="service-heading">Prijave na usposabljanje</h4>
+                  <p class="text-muted"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+<a href="mailto:{{site.email}}" target="_blank">{{site.email}}</a></p>
+                  <p class="text-muted"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+<a href="{{site.files.prijavnicatecaj}}" target="_blank">Prijavnica na tečaj</a></p>
+                  <p class="text-muted"><i class="fa fa-address-card-o" aria-hidden="true"></i>
+</i><a href="{{site.files.elprijavnicatecaj}}" target="_blank">Elektronska prijavnica na tečaj</a></p>
+                  <p class="text-muted"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+<a href="{{site.files.prijavnicaizpit}}" target="_blank">Prijavnica na izpit</a></p>
+                  <h4 class="service-heading">Aktualna usposabljanja</h4>
+                  <ul>
+                  {% for post in site.posts %}
+                    {% if site.time < post.datum %}
+                      <li>
+                        {{ post.title }} <br/>
+                        {{ post.datum | date_to_string }} <br/>
+                        <small><a href="{{post.url}}">Več...</a></small>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                  </ul>
+                </div>
+
+              </div>
+          </div>
+      </section>
+
+
+
+
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

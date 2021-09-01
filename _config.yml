@@ -23,6 +23,9 @@ googleMaps: https://g.page/sdrojal?share
 files:
   statut: https://docs.google.com/document/d/1FbaxWk6PN-HT9nPf7dMqIgNQxfZNABIWhcQfve2mKfE/edit?usp=sharing
   pravilnikClanstvu: https://docs.google.com/document/d/1-0chkKzRm4ljUquVjfW9smeIA7SL3FysxzL_53PNudg/edit?usp=sharing
+  prijavnicaizpit: /img/files/SK Rojal Prijava k preizkusu znanja o ravnanju z orozjem.pdf
+  prijavnicatecaj: /img/files/SK Rojal Prijava na usposabljanje - tecaj.pdf
+  elprijavnicatecaj: https://forms.gle/DLMduFdDEtguGvj58
 
 pricelist:
   - title: "Letno redno članstvo v SD Rojal"
@@ -69,6 +72,28 @@ pricelistammo:
   - title: "Šibreno strelivo"
     price: "1,00 EUR"
 
+pricelisttecaj:
+  - title: "Usposabljanje in preizkus znanja o ravnanju z orožjem"
+    price: "200,00 EUR"
+
+  - title: "Usposabljanje, teoretični del in potrdilo - dedovanje"
+    price: "135,00 EUR"
+
+  - title: "Posebni del preizkusa znanja o ravnanju z orožjem (Kratkocevno orožje)"
+    price: "40,00 EUR"
+
+  - title: "Posebni del preizkusa znanja o ravnanju z orožjem (Dolgocevno orožje)"
+    price: "50,00 EUR"
+
+  - title: "Ponovno opravljanje izpita, teorija + praksa"
+    price: "90,00 EUR"
+
+  - title: "Ponovno opravljanje izpita, praktični del"
+    price: "60,00 EUR"
+
+  - title: "Izdaja novega ali dodatnega potrdila"
+    price: "15,00 EUR"
+
 # orozje:
 #   - title: "Norinco NP26"
 #     tip: "Polavtomatska pištola"
@@ -94,3 +119,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
