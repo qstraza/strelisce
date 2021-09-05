@@ -76,8 +76,9 @@ pricelisttecaj:
   - title: "Usposabljanje in preizkus znanja o ravnanju z orožjem"
     price: "200,00 EUR"
 
-  - title: "Usposabljanje, teoretični del in potrdilo - dedovanje"
-    price: "135,00 EUR"
+  - title: "Usposabljanje, teoretični del in potrdilo"
+    subtitle: "npr. v primeru dedovanja"
+    price: "150,00 EUR"
 
   - title: "Posebni del preizkusa znanja o ravnanju z orožjem (Kratkocevno orožje)"
     price: "40,00 EUR"
@@ -92,7 +93,7 @@ pricelisttecaj:
     price: "60,00 EUR"
 
   - title: "Izdaja novega ali dodatnega potrdila"
-    price: "15,00 EUR"
+    price: "20,00 EUR"
 
 # orozje:
 #   - title: "Norinco NP26"
