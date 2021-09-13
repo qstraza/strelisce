@@ -63,6 +63,9 @@ pricelistammo:
   - title: "9x19"
     price: "0,35 EUR"
 
+  - title: "9x17 (.380 ACP)"
+    price: "0,35 EUR"
+
   - title: ".38 Special"
     price: "0,45 EUR"
 
