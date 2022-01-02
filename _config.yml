@@ -189,12 +189,12 @@ paketi:
       tanfmatch: "10 nabojev"
       taurus809c: "10 nabojev"
 
-  - title: "Paket Pištola/Revolver"
+  - title: "Paket Pištola / Revolver"
     price: 55,00 EUR / oseba
     guns:
-      taurus605: "10 nabojev"
       nz85b: "10 nabojev"
-      taurus809c: "6 nabojev"
+      taurus809c: "10 nabojev"
+      taurus605: "6 nabojev"
 
   - title: "Paket Mega"
     price: 85,00 EUR / oseba
