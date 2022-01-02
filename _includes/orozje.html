@@ -2,24 +2,24 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Orožje</h2>
-        <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+        <h2 class="section-heading"><a href="/paketi">Orožje</a></h2>
+        <h3 class="section-subheading text-muted">Orožje, ki si ga je mogoče sposoditi. Za osebe, ki nimajo orožne listine in orožja, si oglejte <a href="/paketi">pakete</a>.</h3>
       </div>
     </div>
     <div class="row container">
-      <div class="card-deck">
-        {% for orozje in site.orozje %}
-          <div class="card col-md-4">
-            <img class="card-img-top" src="{{ orozje.img }}" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">{{ orozje.title }}</h5>
-              <p class="card-text">Vrsta: {{ orozje.tip }}</p>
-              <p class="card-text">Kaliber: {{ orozje.cal }}</p>
-              <p class="card-text">{{ orozje.desc }}</p>
+      {% for orozje in site.orozje %}
+      {% assign gun = orozje[1] %}
+        <div class="col-md-3 orozjelist">
+          <div class="thumbnail">
+            <h3 class="text-center"><a href="/paketi">{{ gun.title }} ({{gun.cal}})</a></h3>
+            <a href="/paketi"><img src="/img/orozje/{{ gun.img }}" alt="{{gun.title}}"></a>
+            <div class="caption">
+              <p>{{ gun.tip }}</p>
+              <p>{{ gun.desc }}</p>
             </div>
           </div>
-        {% endfor %}
-      </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>

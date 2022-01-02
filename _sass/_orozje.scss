@@ -1,0 +1,18 @@
+#orozje {
+  @media (min-width: 992px) {
+    .thumbnail {
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      img {
+        max-height: 200px;
+      }
+
+    }
+  }
+}
+
+.orozjelist {
+
+}

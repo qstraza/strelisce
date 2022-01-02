@@ -1,0 +1,25 @@
+#paketi {
+  .badge {
+    font-size: 20px;
+  }
+  p {
+    line-height: 1.7;
+    margin: 0;
+  }
+  h3.section-subheading {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  @media (min-width: 992px) {
+    .thumbnail {
+      height: 420px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      > img {
+        max-height: 200px;
+      }
+
+    }
+  }
+}

@@ -98,12 +98,113 @@ pricelisttecaj:
   - title: "Izdaja novega ali dodatnega potrdila"
     price: "20,00 EUR"
 
-# orozje:
-#   - title: "Norinco NP26"
-#     tip: "Polavtomatska pištola"
-#     cal: "9x19"
-#     desc: "opis... alalala"
-#     img: "http://www.firearmstraining.ca/images/np28leftsmall.jpg"
+orozje:
+  gsg1911:
+    title: "GSG 1911"
+    tip: "Polavtomatska pištola"
+    cal: ".22 LR"
+    desc: ""
+    img: "gsg1911.jpg"
+  toz35:
+    title: "TOZ 35"
+    tip: "Pištola"
+    cal: ".22 LR"
+    desc: ""
+    img: "TOZ-35.jpeg"
+  ppn:
+    title: "Norinco PPN"
+    tip: "Polavtomatska pištola"
+    cal: ".380 ACP"
+    desc: ""
+    img: "ppn.jpeg"
+  nz85b:
+    title: "Norinco NZ85B"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "nz85b.jpeg"
+  tanfmatch:
+    title: "Tanfoglio Wie Match"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "tanfmatch.jpg"
+  taurus809c:
+    title: "Taurus 809c"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "809c.jpg"
+  taurus605:
+    title: "Taurus 605"
+    tip: "Revolver"
+    cal: ".357 Magnum"
+    desc: ""
+    img: "605.jpg"
+  kralsa001:
+    title: "Kral AV SA-001"
+    tip: "Polavtomatska puška z gladko cevjo"
+    cal: "20 GA"
+    desc: ""
+    img: "sa001.jpeg"
+  uzkontrx:
+    title: "Uzkon TRX"
+    tip: "Repetirna puška z gladko cevjo"
+    cal: "12 GA"
+    desc: ""
+    img: "trx.jpeg"
+  mosin:
+    title: "Mosin Nagant M91/30"
+    tip: "Repetirna puška z risano cevjo"
+    cal: "7.62x54R"
+    desc: ""
+    img: "mosin.jpg"
+
+paketi:
+  - title: "Paket Pištola Začetnik"
+    price: 45,00 EUR / oseba
+    guns:
+      gsg1911: "15 nabojev"
+      nz85b: "15 nabojev"
+
+  - title: "Paket Pištola"
+    price: 50,00 EUR / oseba
+    guns:
+      nz85b: "15 nabojev"
+      taurus809c: "15 nabojev"
+
+  - title: "Paket Pištola L"
+    price: 60,00 EUR / oseba
+    guns:
+      nz85b: "15 nabojev"
+      tanfmatch: "15 nabojev"
+      taurus809c: "15 nabojev"
+
+  - title: "Paket Pištola XL"
+    price: 72,00 EUR / oseba
+    guns:
+      gsg1911: "10 nabojev"
+      nz85b: "10 nabojev"
+      ppn: "10 nabojev"
+      tanfmatch: "10 nabojev"
+      taurus809c: "10 nabojev"
+
+  - title: "Paket Pištola/Revolver"
+    price: 55,00 EUR / oseba
+    guns:
+      taurus605: "10 nabojev"
+      nz85b: "10 nabojev"
+      taurus809c: "6 nabojev"
+
+  - title: "Paket Mega"
+    price: 85,00 EUR / oseba
+    guns:
+      nz85b: "10 nabojev"
+      tanfmatch: "10 nabojev"
+      taurus809c: "10 nabojev"
+      taurus605: "6 nabojev"
+      kralsa001: "4 nabojev"
+      mosin: "5 nabojev"
 
 # pricelistfootnote:
 #   - "* Zaposlenim na MNZ, Mors ter Pravosodju, se prizna popust na enodnevno članstvo v višini 2 eur."
