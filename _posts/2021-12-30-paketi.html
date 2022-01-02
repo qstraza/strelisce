@@ -27,7 +27,7 @@ permalink: /paketi
               <div class="col-md-12 paket">
                 <div class="row">
                   <div class="col-lg-12 text-center">
-                    <h2 class="section-heading btn btn-primary" role="button" data-toggle="collapse" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">{{paket.title}}</h2>
+                    <h2 class="section-heading" role="button" data-toggle="collapse" href="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">{{paket.title}}</h2>
                     <h3 class="section-subheading text-muted"><span class="badge">{{paket.price}}</span></h3>
                     <h3 class="section-subheading text-muted">
                       <p>
@@ -55,8 +55,7 @@ permalink: /paketi
                     {% assign gun = site.orozje[gunid] %}
                     <div class="col-md-3">
                       <div class="thumbnail">
-                        <h3 class="text-center">{{gun.title}}</h3>
-                        <h3 class="section-subheading text-muted">{{gun.cal}}</h3>
+                        <h3 class="text-center">{{gun.title}} ({{gun.cal}})</h3>
                         <img src="/img/orozje/{{ gun.img }}" alt="{{gun.title}}">
                         <div class="caption">
                           <p>{{ gun.tip }}</p>
