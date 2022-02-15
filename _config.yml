@@ -159,6 +159,18 @@ orozje:
     cal: "7.62x54R"
     desc: ""
     img: "mosin.jpg"
+  delta:
+    title: "Rex Delta X Gen.2"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "deltax.jpeg"
+  zero1:
+    title: "Rex Zero1 Standard"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "zero1.jpeg"
 
 paketi:
   - title: "Paket Pištola Začetnik"
@@ -172,6 +184,12 @@ paketi:
     guns:
       nz85b: "15 nabojev"
       taurus809c: "15 nabojev"
+
+  - title: "Paket Arex Defense 2"
+    price: 50,00 EUR / oseba
+    guns:
+      delta: "15 nabojev"
+      zero1: "15 nabojev"
 
   - title: "Paket Pištola L"
     price: 60,00 EUR / oseba
