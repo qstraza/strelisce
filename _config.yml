@@ -171,6 +171,12 @@ orozje:
     cal: "9x19"
     desc: ""
     img: "zero1.jpeg"
+  tippmann:
+    title: "Tippmann M4-22 Elite-L 16" M-LOK"
+    tip: "Polavtomatska puška z risano cevjo"
+    cal: ".22 LR"
+    desc: ""
+    img: "tippmann.jpg"
 
 paketi:
   - title: "Paket Pištola Začetnik"
