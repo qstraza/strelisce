@@ -2,11 +2,11 @@
 layout: post
 title:  "Usposabljanje o rokovanju z orožjem"
 tag: tecaj
-datum: 2022-05-27T17:00:00Z
+datum: 2022-06-24T17:00:00Z
 ---
 
-Usposabljanje o rokovanju z orožjem bo potekalo v petek, 27.5.2022 od 17:00 do 21:00 in
-v soboto, 28.5.2022 od 8:00 do 12:00 ter od 13:00 do 19:00.
+Usposabljanje o rokovanju z orožjem bo potekalo v petek, 24.6.2022 od 17:00 do 21:00 in
+v soboto, 25.6.2022 od 8:00 do 12:00 ter od 13:00 do 19:00.
 
 Usposabljanje poteka v Novem mestu.
 
