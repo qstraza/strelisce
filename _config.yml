@@ -77,7 +77,7 @@ pricelistammo:
 
 pricelisttecaj:
   - title: "Usposabljanje in preizkus znanja o ravnanju z orožjem"
-    price: "200,00 EUR"
+    price: "220,00 EUR"
 
   - title: "Usposabljanje, teoretični del in potrdilo"
     subtitle: "npr. v primeru dedovanja"
@@ -90,7 +90,7 @@ pricelisttecaj:
     price: "50,00 EUR"
 
   - title: "Ponovno opravljanje izpita, teorija + praksa"
-    price: "80,00 EUR"
+    price: "70,00 EUR"
 
   - title: "Ponovno opravljanje izpita, praktični del"
     price: "60,00 EUR"
@@ -165,6 +165,12 @@ orozje:
     cal: "9x19"
     desc: ""
     img: "deltax.jpeg"
+  deltamor:
+    title: "Rex Delta M OR Gen.2"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "deltamor.jpeg"
   zero1:
     title: "Rex Zero1 Standard"
     tip: "Polavtomatska pištola"
@@ -177,6 +183,19 @@ orozje:
     cal: ".22 LR"
     desc: ""
     img: "tippmann.jpg"
+  oberland223:
+    title: "Oberland OA-15 BL M-LOK M4"
+    tip: "Polavtomatska puška z risano cevjo"
+    cal: ".223 REM"
+    desc: ""
+    img: "oberlandmlmlok.jpg"
+  oberland9:
+    title: "Oberland PR M9 Heavy Barrel"
+    tip: "Polavtomatska puška z risano cevjo"
+    cal: "9x19"
+    desc: ""
+    img: "oberlandprm9.jpg"
+
 
 paketi:
   - title: "Paket Pištola Začetnik"
@@ -189,20 +208,28 @@ paketi:
     price: 50,00 EUR / oseba
     guns:
       nz85b: "15 nabojev"
-      taurus809c: "15 nabojev"
+      delta: "15 nabojev"
 
   - title: "Paket Arex Defense 2"
-    price: 50,00 EUR / oseba
+    price: 60,00 EUR / oseba
     guns:
       delta: "15 nabojev"
       zero1: "15 nabojev"
+      deltamor: "15 nabojev"
 
   - title: "Paket Pištola L"
     price: 60,00 EUR / oseba
     guns:
       nz85b: "15 nabojev"
       tanfmatch: "15 nabojev"
+      delta: "15 nabojev"
+
+  - title: "Paket Polymer Frame"
+    price: 60,00 EUR / oseba
+    guns:
       taurus809c: "15 nabojev"
+      delta: "15 nabojev"
+      deltamor: "15 nabojev"
 
   - title: "Paket Pištola XL"
     price: 72,00 EUR / oseba
@@ -211,13 +238,13 @@ paketi:
       nz85b: "10 nabojev"
       ppn: "10 nabojev"
       tanfmatch: "10 nabojev"
-      taurus809c: "10 nabojev"
+      delta: "10 nabojev"
 
   - title: "Paket Pištola / Revolver"
     price: 55,00 EUR / oseba
     guns:
       nz85b: "10 nabojev"
-      taurus809c: "10 nabojev"
+      delta: "10 nabojev"
       taurus605: "6 nabojev"
 
   - title: "Paket Mega"
@@ -225,9 +252,35 @@ paketi:
     guns:
       nz85b: "10 nabojev"
       tanfmatch: "10 nabojev"
-      taurus809c: "10 nabojev"
+      delta: "10 nabojev"
       taurus605: "6 nabojev"
       kralsa001: "4 nabojev"
+      mosin: "5 nabojev"
+
+  - title: "Paket Rifles"
+    price: "100 EUR / oseba"
+    guns:
+      mosin: "5 nabojev"
+      tippmann: "25 nabojev"
+      oberland223: "5 nabojev"
+      oberland9: "25 nabojev"
+
+  - title: "Paket XXL 200 nabojev / 14 orožij"
+    price: 250,00 EUR / oseba
+    guns:
+      gsg1911: "20 nabojev"
+      ppn: "10 nabojev"
+      nz85b: "20 nabojev"
+      delta: "20 nabojev"
+      deltamor: "20 nabojev"
+      tanfmatch: "20 nabojev"
+      taurus809c: "20 nabojev"
+      zero1: "20 nabojev"
+      taurus605: "6 nabojev"
+      uzkontrx: "4 nabojev"
+      tippmann: "25 nabojev"
+      oberland223: "5 nabojev"
+      oberland9: "25 nabojev"
       mosin: "5 nabojev"
 
 # pricelistfootnote:
