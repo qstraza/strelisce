@@ -59,22 +59,22 @@ pricelist:
 
 pricelistammo:
   - title: ".22 L.R."
-    price: "0,14 EUR"
+    price: "0,21 EUR"
 
   - title: "9x19"
-    price: "0,35 EUR"
+    price: "0,38 EUR"
 
   - title: "9x17 (.380 ACP)"
-    price: "0,35 EUR"
+    price: "0,38 EUR"
 
   - title: ".38 Special"
-    price: "0,45 EUR"
+    price: "0,55 EUR"
 
   - title: ".357 Magnum"
     price: "0,60 EUR"
 
   - title: "Šibreno strelivo"
-    price: "1,00 EUR"
+    price: "1,50 EUR"
 
 pricelisttecaj:
   - title: "Usposabljanje in preizkus znanja o ravnanju z orožjem"
