@@ -78,11 +78,11 @@ pricelistammo:
 
 pricelisttecaj:
   - title: "Usposabljanje in preizkus znanja o ravnanju z orožjem"
-    price: "220,00 EUR"
+    price: "240,00 EUR"
 
   - title: "Usposabljanje, teoretični del in potrdilo"
     subtitle: "npr. v primeru dedovanja"
-    price: "150,00 EUR"
+    price: "170,00 EUR"
 
   - title: "Posebni del preizkusa znanja o ravnanju z orožjem (Kratkocevno orožje)"
     price: "40,00 EUR"
