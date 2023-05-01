@@ -109,12 +109,24 @@ orozje:
     cal: ".22 LR"
     desc: ""
     img: "TOZ-35.jpeg"
+  beretta635:
+    title: "Beretta 950"
+    tip: "Polavtomatska pištola"
+    cal: ".25 ACP"
+    desc: ""
+    img: "m57.jpg"
   ppn:
     title: "Norinco PPN"
     tip: "Polavtomatska pištola"
     cal: ".380 ACP"
     desc: ""
     img: "ppn.jpeg"
+  m57:
+    title: "Zastava M57"
+    tip: "Polavtomatska pištola"
+    cal: "7.62x25mm Tokarev"
+    desc: ""
+    img: "m57.jpg"
   nz85b:
     title: "Norinco NZ85B"
     tip: "Polavtomatska pištola"
@@ -127,36 +139,12 @@ orozje:
     cal: "9x19"
     desc: ""
     img: "tanfmatch.jpg"
-  taurus809c:
-    title: "Taurus 809c"
+  glock17:
+    title: "Glock 17"
     tip: "Polavtomatska pištola"
     cal: "9x19"
     desc: ""
-    img: "809c.jpg"
-  taurus605:
-    title: "Taurus 605"
-    tip: "Revolver"
-    cal: ".357 Magnum"
-    desc: ""
-    img: "605.jpg"
-  kralsa001:
-    title: "Kral AV SA-001"
-    tip: "Polavtomatska puška z gladko cevjo"
-    cal: "20 GA"
-    desc: ""
-    img: "sa001.jpeg"
-  uzkontrx:
-    title: "Uzkon TRX"
-    tip: "Repetirna puška z gladko cevjo"
-    cal: "12 GA"
-    desc: ""
-    img: "trx.jpeg"
-  mosin:
-    title: "Mosin Nagant M91/30"
-    tip: "Repetirna puška z risano cevjo"
-    cal: "7.62x54R"
-    desc: ""
-    img: "mosin.jpg"
+    img: "glock17.jpg"
   delta:
     title: "Rex Delta X Gen.2"
     tip: "Polavtomatska pištola"
@@ -175,25 +163,66 @@ orozje:
     cal: "9x19"
     desc: ""
     img: "zero1.jpeg"
+  taurus809c:
+    title: "Taurus 809c"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "809c.jpg"
+  taurus605:
+    title: "Taurus 605"
+    tip: "Revolver"
+    cal: ".357 Magnum"
+    desc: ""
+    img: "605.jpg"
+  uberti44:
+    title: "Uberti Single Action Target"
+    tip: "Revolver"
+    cal: ".44 Magnum"
+    desc: ""
+    img: "uberti44.jpg"
+  kralsa001:
+    title: "Kral AV SA-001"
+    tip: "Polavtomatska puška z gladko cevjo"
+    cal: "20 GA"
+    desc: ""
+    img: "sa001.jpeg"
+  uzkontrx:
+    title: "Uzkon TRX"
+    tip: "Repetirna puška z gladko cevjo"
+    cal: "12 GA"
+    desc: ""
+    img: "trx.jpeg"
+  mosin:
+    title: "Mosin Nagant M91/30"
+    tip: "Repetirna puška z risano cevjo"
+    cal: "7.62x54R"
+    desc: ""
+    img: "mosin.jpg"
   tippmann:
     title: "Tippmann M4-22 Elite-L 16 M-LOK"
     tip: "Polavtomatska puška z risano cevjo"
     cal: ".22 LR"
     desc: ""
     img: "tippmann.jpg"
-  oberland223:
-    title: "Oberland OA-15 BL M-LOK M4"
-    tip: "Polavtomatska puška z risano cevjo"
-    cal: ".223 REM"
+  glock17roni:
+    title: "Glock 17 Roni"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
     desc: ""
-    img: "oberlandmlmlok.jpg"
+    img: "glock17.jpg"
   oberland9:
     title: "Oberland PR M9 Heavy Barrel"
     tip: "Polavtomatska puška z risano cevjo"
     cal: "9x19"
     desc: ""
     img: "oberlandprm9.jpg"
-
+  oberland223:
+    title: "Oberland OA-15 BL M-LOK M4"
+    tip: "Polavtomatska puška z risano cevjo"
+    cal: ".223 REM"
+    desc: ""
+    img: "oberlandmlmlok.jpg"
 
 paketi:
   - title: "Paket Pištola Začetnik"
