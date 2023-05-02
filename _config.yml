@@ -109,12 +109,12 @@ orozje:
     cal: ".22 LR"
     desc: ""
     img: "TOZ-35.jpeg"
-  beretta635:
-    title: "Beretta 950"
+  cz92:
+    title: "CZ 92"
     tip: "Polavtomatska pištola"
     cal: ".25 ACP"
     desc: ""
-    img: "m57.jpg"
+    img: "cz92.jpg"
   ppn:
     title: "Norinco PPN"
     tip: "Polavtomatska pištola"
