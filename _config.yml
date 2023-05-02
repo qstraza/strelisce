@@ -206,11 +206,11 @@ orozje:
     desc: ""
     img: "tippmann.jpg"
   glock17roni:
-    title: "Glock 17 Roni"
+    title: "Glock 17 Micro Roni"
     tip: "Polavtomatska pištola"
     cal: "9x19"
     desc: ""
-    img: "glock17.jpg"
+    img: "glock17roni.jpg"
   oberland9:
     title: "Oberland PR M9 Heavy Barrel"
     tip: "Polavtomatska puška z risano cevjo"
