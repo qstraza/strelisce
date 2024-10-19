@@ -40,16 +40,16 @@ pricelist:
   - title: "Standard pištolska tarča 50x50"
     price: "0,60 EUR / kom"
 
-  - title: "Uporaba strelišča za nečlana"
-    price: "10 EUR / h"
+  - title: "Uporaba strelišča za nečlane"
+    price: "20 EUR / h"
 
-  - title: "Prisotnost inštruktorja oz. odgovorne osebe (do 4 osebe)"
-    subtitle: "Potrebno samo v primeru, če strelec nima orožne listine"
+  - title: "Prisotnost inštruktorja oz. odgovorne osebe (do 3 osebe)"
+    subtitle: "Potrebno samo v primeru, če strelec nima orožne listine ali ko gre za skupine"
     price: "15 EUR"
 
-  - title: "Prisotnost inštruktorja oz. odgovorne osebe (5 oseb ali več)"
-    subtitle: "Potrebno samo v primeru, če strelec nima orožne listine"
-    price: "35 EUR"
+  - title: "Prisotnost inštruktorja oz. odgovorne osebe (4 oseb ali več)"
+    subtitle: "Potrebno samo v primeru, če strelec nima orožne listine ali ko gre za skupine"
+    price: "45 EUR"
 
   - title: "Izposoja orožja"
     price: "6 EUR"
