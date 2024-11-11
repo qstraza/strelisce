@@ -74,24 +74,26 @@ pricelistammo:
     price: "1,50 EUR"
 
 pricelisttecaj:
-  - title: "Usposabljanje in preizkus znanja o ravnanju z orožjem"
-    price: "240,00 EUR"
+  - title: "Usposabljanje in preizkus znanja (izpit) o ravnanju z orožjem"
+    subtitle: "Vsebuje tečaj in izpit"
+    price: "290,00 EUR"
 
   - title: "Usposabljanje, teoretični del in potrdilo"
     subtitle: "npr. v primeru dedovanja"
-    price: "170,00 EUR"
+    price: "200,00 EUR"
+
+  - title: "Preizkus znanja (izpit) o ravnanju z orožjem (teoretični + praktični del)"
+    subtitle: "Celotni izpit. Za ponavljalce ali kandidate, ki tečaja niso opravljali pri nas."
+    price: "100,00 EUR"
+
+  - title: "Ponovno opravljanje izpita, praktični del"
+    price: "70,00 EUR"
 
   - title: "Posebni del preizkusa znanja o ravnanju z orožjem (Kratkocevno orožje)"
     price: "40,00 EUR"
 
   - title: "Posebni del preizkusa znanja o ravnanju z orožjem (Dolgocevno orožje)"
     price: "50,00 EUR"
-
-  - title: "Ponovno opravljanje izpita, teorija + praksa"
-    price: "80,00 EUR"
-
-  - title: "Ponovno opravljanje izpita, praktični del"
-    price: "60,00 EUR"
 
   - title: "Izdaja novega ali dodatnega potrdila"
     price: "20,00 EUR"
