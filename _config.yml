@@ -450,7 +450,7 @@ orozje:
     tip: "Polavtomatska pištola"
     cal: ".50 AE"
     desc: ""
-    img: "IWI_feserteagle.jpeg"
+    img: "IWI_deserteagle.jpeg"
   TP9metePRO:
     title: "Canik TP9 Mete SFT Pro"
     tip: "Polavtomatska pištola"
@@ -492,7 +492,7 @@ orozje:
     tip: "Repetirna puška z risano cevjo"
     cal: ".22 LR"
     desc: ""
-    img: "jW-20.jpeg"
+    img: "jw-20.jpeg"
   ptac:
     title: "Pallas P-Tac Tactical"
     tip: "Repetirna puška z gladko cevjo"
@@ -504,7 +504,7 @@ orozje:
     tip: "Polavtomatska pištola"
     cal: "7,65 Browning"
     desc: ""
-    img: "cz_scorpion.jpeg"
+    img: "cz_skorpion.jpeg"
   m70:
     title: "CZ M70"
     tip: "Polavtomatska pištola"
@@ -635,7 +635,7 @@ paketi:
       delta: "20 nabojev"
       zero1: "20 nabojev"
       TP9metePRO: "20 nabojev"
-      smith&esson686: "6 nabojev"
+      smithwesson686: "6 nabojev"
       deserteagle: "7 nabojev"
       skorpion: "10 nabojev"
       tippmann: "25 nabojev"
