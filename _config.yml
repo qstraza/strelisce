@@ -98,6 +98,220 @@ pricelisttecaj:
   - title: "Izdaja novega ali dodatnega potrdila"
     price: "20,00 EUR"
 
+# orozje:
+#   gsg1911:
+#     title: "GSG 1911"
+#     tip: "Polavtomatska pištola"
+#     cal: ".22 LR"
+#     desc: ""
+#     img: "gsg1911.jpg"
+#   toz35:
+#     title: "TOZ 35"
+#     tip: "Pištola"
+#     cal: ".22 LR"
+#     desc: ""
+#     img: "TOZ-35.jpeg"
+#   cz92:
+#     title: "CZ 92"
+#     tip: "Polavtomatska pištola"
+#     cal: ".25 ACP"
+#     desc: ""
+#     img: "cz92.jpg"
+#   ppn:
+#     title: "Norinco PPN"
+#     tip: "Polavtomatska pištola"
+#     cal: ".380 ACP"
+#     desc: ""
+#     img: "ppn.jpeg"
+#   m57:
+#     title: "Zastava M57"
+#     tip: "Polavtomatska pištola"
+#     cal: "7.62x25mm Tokarev"
+#     desc: ""
+#     img: "m57.jpg"
+#   nz85b:
+#     title: "Norinco NZ85B"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "nz85b.jpeg"
+#   tanfmatch:
+#     title: "Tanfoglio Wie Match"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "tanfmatch.jpg"
+#   glock17:
+#     title: "Glock 17"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "glock17.jpg"
+#   delta:
+#     title: "Rex Delta X Gen.2"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "deltax.jpeg"
+#   deltamor:
+#     title: "Rex Delta M OR Gen.2"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "deltamor.jpeg"
+#   zero1:
+#     title: "Rex Zero1 Standard"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "zero1.jpeg"
+#   taurus809c:
+#     title: "Taurus 809c"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "809c.jpg"
+#   taurus605:
+#     title: "Taurus 605"
+#     tip: "Revolver"
+#     cal: ".357 Magnum"
+#     desc: ""
+#     img: "605.jpg"
+#   uberti44:
+#     title: "Uberti Single Action Target"
+#     tip: "Revolver"
+#     cal: ".44 Magnum"
+#     desc: ""
+#     img: "uberti44.jpg"
+#   kralsa001:
+#     title: "Kral AV SA-001"
+#     tip: "Polavtomatska puška z gladko cevjo"
+#     cal: "20 GA"
+#     desc: ""
+#     img: "sa001.jpeg"
+#   uzkontrx:
+#     title: "Uzkon TRX"
+#     tip: "Repetirna puška z gladko cevjo"
+#     cal: "12 GA"
+#     desc: ""
+#     img: "trx.jpeg"
+#   mosin:
+#     title: "Mosin Nagant M91/30"
+#     tip: "Repetirna puška z risano cevjo"
+#     cal: "7.62x54R"
+#     desc: ""
+#     img: "mosin.jpg"
+#   tippmann:
+#     title: "Tippmann M4-22 Elite-L 16 M-LOK"
+#     tip: "Polavtomatska puška z risano cevjo"
+#     cal: ".22 LR"
+#     desc: ""
+#     img: "tippmann.jpg"
+#   glock17roni:
+#     title: "Glock 17 Micro Roni"
+#     tip: "Polavtomatska pištola"
+#     cal: "9x19"
+#     desc: ""
+#     img: "glock17roni.jpg"
+#   oberland9:
+#     title: "Oberland PR M9 Heavy Barrel"
+#     tip: "Polavtomatska puška z risano cevjo"
+#     cal: "9x19"
+#     desc: ""
+#     img: "oberlandprm9.jpg"
+#   oberland223:
+#     title: "Oberland OA-15 BL M-LOK M4"
+#     tip: "Polavtomatska puška z risano cevjo"
+#     cal: ".223 REM"
+#     desc: ""
+#     img: "oberlandmlmlok.jpg"
+
+# paketi:
+#   - title: "Paket Pištola Začetnik"
+#     price: 45,00 EUR / oseba
+#     guns:
+#       gsg1911: "15 nabojev"
+#       nz85b: "15 nabojev"
+
+#   - title: "Paket Pištola"
+#     price: 50,00 EUR / oseba
+#     guns:
+#       nz85b: "15 nabojev"
+#       delta: "15 nabojev"
+
+#   - title: "Paket Arex Defense 2"
+#     price: 60,00 EUR / oseba
+#     guns:
+#       delta: "15 nabojev"
+#       zero1: "15 nabojev"
+#       deltamor: "15 nabojev"
+
+#   - title: "Paket Pištola L"
+#     price: 60,00 EUR / oseba
+#     guns:
+#       nz85b: "15 nabojev"
+#       tanfmatch: "15 nabojev"
+#       delta: "15 nabojev"
+
+#   - title: "Paket Polymer Frame"
+#     price: 60,00 EUR / oseba
+#     guns:
+#       taurus809c: "15 nabojev"
+#       delta: "15 nabojev"
+#       deltamor: "15 nabojev"
+
+#   - title: "Paket Pištola XL"
+#     price: 72,00 EUR / oseba
+#     guns:
+#       gsg1911: "10 nabojev"
+#       nz85b: "10 nabojev"
+#       ppn: "10 nabojev"
+#       tanfmatch: "10 nabojev"
+#       delta: "10 nabojev"
+
+#   - title: "Paket Pištola / Revolver"
+#     price: 55,00 EUR / oseba
+#     guns:
+#       nz85b: "10 nabojev"
+#       delta: "10 nabojev"
+#       taurus605: "6 nabojev"
+
+#   - title: "Paket Mega"
+#     price: 85,00 EUR / oseba
+#     guns:
+#       nz85b: "10 nabojev"
+#       tanfmatch: "10 nabojev"
+#       delta: "10 nabojev"
+#       taurus605: "6 nabojev"
+#       kralsa001: "4 nabojev"
+#       mosin: "5 nabojev"
+
+#   - title: "Paket Rifles"
+#     price: "100 EUR / oseba"
+#     guns:
+#       mosin: "5 nabojev"
+#       tippmann: "25 nabojev"
+#       oberland223: "5 nabojev"
+#       oberland9: "25 nabojev"
+
+#   - title: "Paket XXL 200 nabojev / 14 orožij"
+#     price: 250,00 EUR / oseba
+#     guns:
+#       gsg1911: "20 nabojev"
+#       ppn: "10 nabojev"
+#       nz85b: "20 nabojev"
+#       delta: "20 nabojev"
+#       deltamor: "20 nabojev"
+#       tanfmatch: "20 nabojev"
+#       taurus809c: "20 nabojev"
+#       zero1: "20 nabojev"
+#       taurus605: "6 nabojev"
+#       uzkontrx: "4 nabojev"
+#       tippmann: "25 nabojev"
+#       oberland223: "5 nabojev"
+#       oberland9: "25 nabojev"
+#       mosin: "5 nabojev"
+
 orozje:
   gsg1911:
     title: "GSG 1911"
