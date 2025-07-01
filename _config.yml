@@ -439,92 +439,239 @@ orozje:
     cal: ".223 REM"
     desc: ""
     img: "oberlandmlmlok.jpg"
+  taurusTX22:
+    title: "Taurus TX 22 Gen2"
+    tip: "Polavtomatska pištola"
+    cal: ".22 LR"
+    desc: ""
+    img: "TaurusTX22Gen2.jpeg"
+  deserteagle:
+    title: "IWI Desert Eagle"
+    tip: "Polavtomatska pištola"
+    cal: ".50 AE"
+    desc: ""
+    img: "IWI_feserteagle.jpeg"
+  TP9metePRO:
+    title: "Canik TP9 Mete SFT Pro"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "mete-sft-pro.jpeg"
+  waltherP01:
+    title: "Walther P-01"
+    tip: "Polavtomatska pištola"
+    cal: "9x19"
+    desc: ""
+    img: "Walther_P-01.jpeg"
+  glock21:
+    title: "Glock 21"
+    tip: "Polavtomatska pištola"
+    cal: ".45 ACP"
+    desc: ""
+    img: "Glock_21.jpeg"
+  smithwesson686:
+    title: "Smith Wesson 686 Target Champion"
+    tip: "Revolver"
+    cal: ".357 Magnum"
+    desc: ""
+    img: "Smith-and-Wesson-model-627.jpeg"
+  uberti454:
+    title: "A. Uberti Tornado 454"
+    tip: "Revolver"
+    cal: ".454 Casull"
+    desc: ""
+    img: "uberti-454-casull.jpeg"
+  smithwesson500:
+    title: "Smith Wesson MOD 500"
+    tip: "Revolver"
+    cal: ".500 SW Magnum"
+    desc: ""
+    img: "Smith-Wesson-500-S-W-Magnum.jpeg"
+  jw20:
+    title: "Norinco JW-20"
+    tip: "Repetirna puška z risano cevjo"
+    cal: ".22 LR"
+    desc: ""
+    img: "jW-20.jpeg"
+  ptac:
+    title: "Pallas P-Tac Tactical"
+    tip: "Repetirna puška z gladko cevjo"
+    cal: "12 GA"
+    desc: ""
+    img: "pallas_p-tac_home_defence_12-76.jpeg"
+  skorpion:
+    title: "CZ Skorpion"
+    tip: "Polavtomatska pištola"
+    cal: "7,65 Browning"
+    desc: ""
+    img: "cz_scorpion.jpeg"
+  m70:
+    title: "CZ M70"
+    tip: "Polavtomatska pištola"
+    cal: "7,65 Browning"
+    desc: ""
+    img: "CZ_70.jpeg"
 
 paketi:
-  - title: "Paket Pištola Začetnik"
+  - title: "Paket Pištola - osnovni"
     price: 45,00 EUR / oseba
     guns:
-      gsg1911: "15 nabojev"
+      taurusTX22: "20 nabojev"
       nz85b: "15 nabojev"
-
-  - title: "Paket Pištola"
-    price: 50,00 EUR / oseba
-    guns:
-      nz85b: "15 nabojev"
-      delta: "15 nabojev"
-
-  - title: "Paket Arex Defense 2"
-    price: 60,00 EUR / oseba
-    guns:
-      delta: "15 nabojev"
-      zero1: "15 nabojev"
-      deltamor: "15 nabojev"
 
   - title: "Paket Pištola L"
     price: 60,00 EUR / oseba
     guns:
-      nz85b: "15 nabojev"
-      tanfmatch: "15 nabojev"
+      zero1: "15 nabojev"
       delta: "15 nabojev"
-
-  - title: "Paket Polymer Frame"
-    price: 60,00 EUR / oseba
-    guns:
-      taurus809c: "15 nabojev"
-      delta: "15 nabojev"
-      deltamor: "15 nabojev"
+      TP9metePRO: "15 nabojev"
 
   - title: "Paket Pištola XL"
-    price: 72,00 EUR / oseba
+    price: 75,00 EUR / oseba
     guns:
-      gsg1911: "10 nabojev"
+      taurusTX22: "20 nabojev"
       nz85b: "10 nabojev"
       ppn: "10 nabojev"
-      tanfmatch: "10 nabojev"
       delta: "10 nabojev"
+      TP9metePRO: "10 nabojev"
 
+  - title: "Paket Pištola XXL"
+    price: 90,00 EUR / oseba
+    guns:
+      taurusTX22: "20 nabojev"
+      tanfmatch: "10 nabojev"
+      waltherP01: "10 nabojev"
+      delta: "10 nabojev"
+      TP9metePRO: "10 nabojev"
+      glock21: "10 nabojev"
+      deserteagle: "5 nabojev"
+  
   - title: "Paket Pištola / Revolver"
-    price: 55,00 EUR / oseba
+    price: 60,00 EUR / oseba
     guns:
-      nz85b: "10 nabojev"
+      taurusTX22: "20 nabojev"
       delta: "10 nabojev"
-      taurus605: "6 nabojev"
+      smithwesson686: "6 nabojev"
 
-  - title: "Paket Mega"
-    price: 85,00 EUR / oseba
+  - title: "Paket Pištola / Revolver L"
+    price: 75,00 EUR / oseba
     guns:
+      taurusTX22: "20 nabojev"
       nz85b: "10 nabojev"
-      tanfmatch: "10 nabojev"
       delta: "10 nabojev"
-      taurus605: "6 nabojev"
-      kralsa001: "4 nabojev"
-      mosin: "5 nabojev"
+      smithwesson686: "6 nabojev"
+      uberti44: "2 nabojev"
+
+  - title: "Paket Pištola / Revolver XL"
+    price: 90,00 EUR / oseba
+    guns:
+      taurusTX22: "20 nabojev"
+      nz85b: "10 nabojev"
+      delta: "10 nabojev"
+      TP9metePRO: "10 nabojev"
+      smithwesson686: "6 nabojev"
+      uberti44: "5 nabojev"
+      uberti454: "2 naboja"
 
   - title: "Paket Rifles"
-    price: "100 EUR / oseba"
+    price: 100,00 EUR / oseba
     guns:
       mosin: "5 nabojev"
       tippmann: "25 nabojev"
       oberland223: "5 nabojev"
-      oberland9: "25 nabojev"
+      oberland9: "20 nabojev"
 
-  - title: "Paket XXL 200 nabojev / 14 orožij"
+  - title: "Paket Rifles XL"
+    price: 125,00 EUR / oseba
+    guns:
+      jw20: "20 nabojev"
+      mosin: "5 nabojev"
+      tippmann: "25 nabojev"
+      oberland223: "5 nabojev"
+      oberland9: "20 nabojev"
+      ptac: "4 naboji"
+
+  - title: "Paket Combo"
+    price: 85 EUR / oseba
+    guns:
+      taurusTX22: "20 nabojev"
+      delta: "10 nabojev"
+      smithwesson686: "6 nabojev"
+      ptac: "4 naboji"
+      mosin: "5 nabojev"
+
+  - title: "Paket Combo L"
+    price: 100,00 EUR / oseba
+    guns:
+      taurusTX22: "20 nabojev"
+      nz85b: "10 nabojev"
+      delta: "10 nabojev"
+      smithwesson686: "6 nabojev"
+      tippmann: "25 nabojev"
+      ptac: "4 naboji"
+      mosin: "5 nabojev"
+
+  - title: "Paket Combo XL"
+    price: 150,00 EUR / oseba
+    guns:
+      taurusTX22: "20 nabojev"
+      nz85b: "10 nabojev"
+      delta: "10 nabojev"
+      smithwesson686: "6 nabojev"
+      skorpion: "5 nabojev"
+      tippmann: "25 nabojev"
+      oberland9: "20 nabojev"
+      oberland223: "5 nabojev"
+      ptac: "4 naboji"
+      mosin: "5 nabojev"
+
+  - title: "Paket Combo XXL 200 nabojev / 15 orožij"
     price: 250,00 EUR / oseba
     guns:
-      gsg1911: "20 nabojev"
+      taurusTX22: "20 nabojev"
       ppn: "10 nabojev"
+      m57: "8 nabojev"
       nz85b: "20 nabojev"
       delta: "20 nabojev"
-      deltamor: "20 nabojev"
-      tanfmatch: "20 nabojev"
-      taurus809c: "20 nabojev"
       zero1: "20 nabojev"
-      taurus605: "6 nabojev"
-      uzkontrx: "4 nabojev"
+      TP9metePRO: "20 nabojev"
+      smith&esson686: "6 nabojev"
+      deserteagle: "7 nabojev"
+      skorpion: "10 nabojev"
       tippmann: "25 nabojev"
+      oberland9: "20 nabojev"
       oberland223: "5 nabojev"
-      oberland9: "25 nabojev"
+      ptac: "4 naboji"
       mosin: "5 nabojev"
+
+  - title: "Paket Super Combo Delux 135 nabojev/ 13 kalibrov/ 15 nabojev"
+    price: 275,00 EUR / oseba
+    guns:
+      m57: "8 nabojev"
+      waltherP01: "8 nabojev"
+      glock17: "20 nabojev"
+      glock21: "10 nabojev"
+      deserteagle: "5 nabojev"
+      smithwesson686: "6 nabojev"
+      uberti44: "5 nabojev"
+      uberti454: "2 naboja"
+      smithwesson500: "2 naboja"
+      skorpion: "10 nabojev"
+      tippmann: "25 nabojev"
+      oberland9: "20 nabojev"
+      oberland223: "5 nabojev"
+      ptac: "4 naboji"
+      mosin: "5 nabojev"
+
+  - title: "Paket &quot; Big Boy &quot;	 veliki kalibri / Do you feel lucky, punk?!"
+    price: 125,00 EUR / oseba
+    guns:
+      glock21: "10 nabojev"
+      deserteagle: "5 nabojev"
+      smithwesson686: "6 nabojev"
+      uberti44: "5 nabojev"
+      uberti454: "2 naboja"
+      smithwesson500: "2 naboja"
 
 # pricelistfootnote:
 #   - "* Zaposlenim na MNZ, Mors ter Pravosodju, se prizna popust na enodnevno članstvo v višini 2 eur."
